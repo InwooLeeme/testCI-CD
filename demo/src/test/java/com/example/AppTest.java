@@ -28,7 +28,13 @@ public class AppTest {
 
     @Test
     public void shouldAnswerWithTrue() {
-        // assertTrue(true);
+        // Assertions.fail();
+        Assertions.assertEquals(-2, sbtractor.subtract(3, 5));
+    }
+
+    @Test
+    public void subtractTest() {
+        Assertions.fail("Fail");
         Assertions.assertEquals(-2, sbtractor.subtract(3, 5));
     }
 }
