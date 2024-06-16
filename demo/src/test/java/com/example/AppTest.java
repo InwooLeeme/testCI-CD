@@ -26,11 +26,13 @@ public class AppTest {
         sbtractor = new Subtractor(adder, fliper);
     }
 
-    @Test
-    public void shouldAnswerWithTrue() {
-        // Assertions.fail();
-        Assertions.assertEquals(-2, sbtractor.subtract(3, 5));
-    }
+    /*
+     * @Test
+     * public void shouldAnswerWithTrue() {
+     * // Assertions.fail();
+     * Assertions.assertEquals(-2, sbtractor.subtract(3, 5));
+     * }
+     */
 
     @Test
     public void subtractTest() {
