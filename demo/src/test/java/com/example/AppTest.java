@@ -36,7 +36,7 @@ public class AppTest {
 
     @Test
     public void subtractTest() {
-        Assertions.fail("Fail");
+        Assertions.fail("Failed");
         Assertions.assertEquals(-2, sbtractor.subtract(3, 5));
     }
 }
