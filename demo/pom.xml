@@ -83,13 +83,5 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <profiles>
-    <profile>
-        <id>debug</id>
-        <properties>
-            <maven.logging.level>DEBUG</maven.logging.level> <!-- 로깅 레벨을 DEBUG로 설정 -->
-        </properties>
-    </profile>
-</profiles>
   </build>
 </project>
