@@ -1,6 +1,5 @@
 package com.example;
 
-import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
@@ -26,17 +25,8 @@ public class AppTest {
         sbtractor = new Subtractor(adder, fliper);
     }
 
-    /*
-     * @Test
-     * public void shouldAnswerWithTrue() {
-     * // Assertions.fail();
-     * Assertions.assertEquals(-2, sbtractor.subtract(3, 5));
-     * }
-     */
-
     @Test
     public void subtractTest() {
-        Assertions.fail("Failed");
         Assertions.assertEquals(-2, sbtractor.subtract(3, 5));
     }
 }
